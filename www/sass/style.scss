@@ -615,10 +615,10 @@ h1, h2, h3, h4, h5, h6, figure {
 	display: table;
 	overflow: hidden;
 	margin-bottom: 30px;
-	@media screen and(max-width: $screen-sm){
+	@media screen and (max-width: $screen-sm){
 		height: 400px;
 	}
-	@media screen and(max-width: $screen-xs){
+	@media screen and (max-width: $screen-xs){
 		height: 270px;
 	}	
 	.desc{
@@ -644,7 +644,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			-webkit-transform: translate3d(0, 15px, 0);
 			transform: translate3d(0, 15px, 0);
 		}
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			opacity: 1;
 			background: transparent !important;
 			h3{
@@ -719,7 +719,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		background-repeat: no-repeat;
 		position: relative;
 		height: 270px;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			height: 300px;
 		}
 	}
@@ -1020,7 +1020,7 @@ input[type="text"] {
 	.fh5co-footer-links {
 		padding: 0;
 		margin: 0;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			margin-bottom: 30px;
 		}
 		li {
@@ -1070,7 +1070,7 @@ input[type="text"] {
 	display: none;
 	@include translateX(270px);
 	@include transition(.5s);
-	@media screen and(max-width: $screen-sm){
+	@media screen and (max-width: $screen-sm){
 		display: block;
 	}
 	.offcanvas & {
