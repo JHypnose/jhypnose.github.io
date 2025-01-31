@@ -1,0 +1,36 @@
+/* default float side for sidebar */
+#sidebarContainer {
+	text-align: left;
+	float: right;
+}
+
+#navcontainer {
+	text-align: right;
+	float: left;
+}
+
+#navcontainer a {
+	padding-right: 10px;
+}
+
+#navcontainer ul ul a {
+	padding-right: 20px;
+}
+
+#navcontainer ul ul ul a {
+	padding-right: 30px;
+}
+
+#sidebarContainer #sidebar {
+	padding-left: 10px;
+}
+
+.blog-archive-link-enabled,
+.blog-archive-link-disabled,
+.blog-category-link-enabled,
+.blog-category-link-disabled,
+.blog-rss-link,
+.blog-comments-rss-link {
+	padding-left: 20px;
+	background-position: left 4px;
+}

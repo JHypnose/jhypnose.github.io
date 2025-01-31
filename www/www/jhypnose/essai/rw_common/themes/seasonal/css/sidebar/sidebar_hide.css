@@ -1,0 +1,26 @@
+#sidebarContainer {
+	display: none;
+}
+
+#pageHeader,
+#contentContainer #content {
+	margin-right: 0;
+	border-right: none;
+}
+
+#navcontainer {
+	text-align: right;
+	float: left;
+}
+
+#navcontainer a {
+	padding-right: 10px;
+}
+
+#navcontainer ul ul a {
+	padding-right: 20px;
+}
+
+#navcontainer ul ul ul a {
+	padding-right: 30px;
+}

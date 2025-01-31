@@ -1,0 +1,12 @@
+#container { 
+	width: auto;
+	margin: 0 20px;
+}
+
+#top_swirl {
+	left: -124px;
+}
+
+html>body #top_swirl {
+	left: 25px;
+}

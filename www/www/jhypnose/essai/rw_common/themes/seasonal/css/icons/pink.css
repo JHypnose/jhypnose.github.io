@@ -1,0 +1,11 @@
+p.blog-entry-tags,
+.blog-archive-link-enabled,
+.blog-archive-link-disabled,
+.blog-category-link-enabled,
+.blog-category-link-disabled {
+	background-image: url(../../images/tag_pink.gif);
+}
+
+.blog-entry-category a {
+	background-image: url(../../images/category_pink.png);
+}
