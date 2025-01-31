@@ -8,7 +8,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #66D37E !default;
+$brand-primary: #782885 !default;
 $brand-secondary: #007CB9 !default;
 
 $brand-white: #fff;
@@ -114,6 +114,7 @@ body {
 	line-height: 1.7;
 	color: lighten($brand-black,50%);
 	background: $brand-body-color;
+	text-align: center;
 }
 #page {
 	position: relative;
@@ -148,7 +149,7 @@ a {
 	}
 }
 p {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -253,6 +254,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				}
 				&:hover{
 					color: $brand-black;
+					text-align: center;
 					&:after{
 						opacity: 1;
 						-webkit-transform: translate3d(0, 0, 0);
@@ -492,7 +494,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				h1, h2 {
 					margin: 0;
 					padding: 0;
-					color: rgba(0,0,0,1);
+					color: rgba($brand-white,1);
 					font-family: $font-primary;
 				}
 				h1 {
@@ -509,7 +511,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					line-height: 1.5;
 					margin-bottom: 30px;
 					a{
-						color: rgba($brand-primary,.8);
+						color: rgba($brand-white,.8);
 						border-bottom: 1px solid rgba($brand-primary,.7)
 					}
 				}
@@ -586,7 +588,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		display: table;
 		text-align: center;
 		margin:0 auto;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 		@include border-radius(50%);
 		@include transition(.3s);
 		@media screen and (max-width: $screen-md){
@@ -1016,7 +1018,7 @@ input[type="text"] {
 
 
 #fh5co-footer {
-	margin-top: 20px !important;
+	margin-top: 5px !important;
 	.fh5co-footer-links {
 		padding: 0;
 		margin: 0;
@@ -1028,6 +1030,7 @@ input[type="text"] {
 			margin: 0 0 10px 0;
 			list-style: none;
 			display: block;
+			text-align: center;
 			a {
 				color: rgba($brand-black,.5);
 				text-decoration: none;
@@ -1044,6 +1047,7 @@ input[type="text"] {
 		font-size: 13px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
+		text-align: center;
 	}
 
 	.copyright {
