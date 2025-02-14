@@ -438,6 +438,25 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid rgba(120, 40, 133, 0.7);
 }
+#fh5co-hero .flexslider .slider-text > .slider-text-inner q {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner q {
+    font-size: 28px;
+  }
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .quote-author, #fh5co-hero .flexslider .slider-text > .slider-text-inner .sub-quote {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
   font-size: 50px;
 }

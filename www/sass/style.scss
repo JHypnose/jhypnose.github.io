@@ -510,10 +510,27 @@ h1, h2, h3, h4, h5, h6, figure {
 					font-size: 18px;
 					line-height: 1.5;
 					margin-bottom: 30px;
-					a{
+					a {
 						color: rgba($brand-white,.8);
 						border-bottom: 1px solid rgba($brand-primary,.7)
 					}
+				}
+				q {
+					color: $brand-white;
+					margin-bottom: 20px;
+					font-size: 30px;
+					line-height: 1.5;
+					font-weight: 300;
+					@media screen and (max-width: $screen-sm) {
+						font-size: 28px;
+					}
+				}
+				.quote-author, .sub-quote {
+					color: $brand-white;
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 1.5;
+					margin-bottom: 30px;
 				}
 				.heading-section{
 					font-size: 50px;
